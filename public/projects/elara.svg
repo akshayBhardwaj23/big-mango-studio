@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" fill="none">
+  <rect width="1200" height="675" fill="#fdf2f8"/>
+  <ellipse cx="900" cy="200" rx="220" ry="120" fill="#e85d04" opacity="0.25"/>
+  <rect x="140" y="180" width="520" height="340" fill="#fef3c7" opacity="0.8"/>
+  <rect x="720" y="260" width="340" height="260" fill="#1c1917" opacity="0.06"/>
+  <text x="140" y="130" fill="#1c1917" font-family="ui-serif, Georgia" font-size="44" font-style="italic">Studio Elara</text>
+</svg>

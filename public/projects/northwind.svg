@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" fill="none">
+  <rect width="1200" height="675" fill="#faf8f5"/>
+  <path d="M0 450 L200 300 L400 420 L600 200 L800 380 L1000 280 L1200 400 V675 H0 Z" fill="#1c1917" opacity="0.08"/>
+  <rect x="200" y="180" width="800" height="14" rx="7" fill="#1c1917" opacity="0.12"/>
+  <rect x="200" y="240" width="520" height="14" rx="7" fill="#e85d04" opacity="0.5"/>
+  <text x="200" y="120" fill="#1c1917" font-family="ui-sans-serif, system-ui" font-size="38" font-weight="600">Northwind Health</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" fill="none">
+  <rect width="1200" height="675" fill="#fff7ed"/>
+  <rect x="100" y="120" width="1000" height="420" fill="#ffedd5" stroke="#e85d04" stroke-width="2" rx="4"/>
+  <rect x="160" y="200" width="240" height="300" fill="#1c1917" opacity="0.85" rx="4"/>
+  <rect x="440" y="200" width="240" height="140" fill="#1c1917" opacity="0.2" rx="4"/>
+  <rect x="720" y="200" width="240" height="140" fill="#1c1917" opacity="0.2" rx="4"/>
+  <text x="120" y="100" fill="#1c1917" font-family="ui-sans-serif, system-ui" font-size="40" font-weight="600">Copperlane</text>
+</svg>
