@@ -42,7 +42,7 @@ export default function HomePage() {
         id="work"
         eyebrow="Proof"
         title="Sites that ship and sell."
-        description="Replace placeholders in src/content/projects.ts with your real launches."
+        description="SaaS, AI, and ecommerce launches — built for clarity, conversion, and ship speed."
         className="bg-black"
       >
         <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3 xl:gap-10">

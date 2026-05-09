@@ -121,11 +121,7 @@ export default async function ProjectDetailPage({ params }: Props) {
               View live site
             </ButtonLink>
             <p className="mt-6 text-sm leading-relaxed text-neutral-400">
-              Replace placeholder URLs in{" "}
-              <code className="rounded-md border border-white/10 bg-black/40 px-2 py-1 font-mono text-xs text-neutral-200">
-                src/content/projects.ts
-              </code>{" "}
-              with your production links.
+              Want a comparable launch or redesign? Book a short call and we&apos;ll align on scope and timeline.
             </p>
             <ButtonLink
               href={mailtoLink(`Book a 30-min call — similar to ${project.title}`)}

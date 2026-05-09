@@ -18,10 +18,7 @@ export type Project = {
   featured?: boolean;
 };
 
-/**
- * Replace entries with your real launches. Keep images in /public/projects/
- * and reference them here (e.g. "/projects/my-shot.png").
- */
+/** Portfolio case studies. Images live in /public/projects/ (e.g. "/projects/my-shot.png"). */
 export const projects: Project[] = [
   {
     slug: "fuchsia-shaw",
@@ -148,102 +145,6 @@ export const projects: Project[] = [
       "/projects/zyyp-demo.png",
       "/projects/zyyp-insights.png",
     ],
-    featured: true,
-  },
-  {
-    slug: "aurora-analytics",
-    title: "Aurora Analytics",
-    client: "Aurora Analytics",
-    context:
-      "AI-powered analytics SaaS needed a credible product story and a site that matched enterprise buyers.",
-    outcomes: [
-      "Shipped a narrative-led landing plus pricing that clarified complex ML outputs.",
-      "Cut bounce on the homepage by tightening hero messaging and proof placement.",
-      "Established reusable sections for future feature launches.",
-    ],
-    tags: ["SaaS", "Web", "Strategy"],
-    liveUrl: "https://example.com",
-    image: "/projects/aurora.svg",
-    featured: true,
-  },
-  {
-    slug: "northwind-health",
-    title: "Northwind Health",
-    client: "Northwind Health",
-    context:
-      "Healthcare workflow startup launching a patient-facing portal alongside a B2B pitch.",
-    outcomes: [
-      "Dual-audience IA: patients get clarity; buyers get outcomes and security posture.",
-      "Component library aligned marketing pages with the product UI language.",
-      "Launch playbook including email drips and landing experiments.",
-    ],
-    tags: ["Web", "Marketing", "Strategy"],
-    liveUrl: "https://example.com",
-    image: "/projects/northwind.svg",
-    featured: true,
-  },
-  {
-    slug: "signalforge",
-    title: "SignalForge",
-    client: "SignalForge",
-    context:
-      "Developer tool for event pipelines—technical readers, fast scans, and strong SEO.",
-    outcomes: [
-      "Docs-adjacent marketing site with code-forward samples and fast LCP.",
-      "Structured metadata for SDK pages to improve discoverability.",
-      "Campaign landing templates for conference and launch pushes.",
-    ],
-    tags: ["SaaS", "Web", "Marketing"],
-    liveUrl: "https://example.com",
-    image: "/projects/signalforge.svg",
-    featured: true,
-  },
-  {
-    slug: "copperlane-retail",
-    title: "Copperlane Retail",
-    client: "Copperlane",
-    context:
-      "Regional retailer modernizing omnichannel presence with seasonal campaigns.",
-    outcomes: [
-      "Campaign system for promos with repeatable blocks and photography rhythm.",
-      "Store locator and hours surfaced without hurting mobile performance.",
-      "Quarterly roadmap for SEO content clusters.",
-    ],
-    tags: ["Web", "Marketing"],
-    liveUrl: "https://example.com",
-    image: "/projects/copperlane.svg",
-    featured: true,
-  },
-  {
-    slug: "ledgerwell",
-    title: "Ledgerwell",
-    client: "Ledgerwell",
-    context:
-      "Fintech onboarding flows needed trust, compliance cues, and crisp activation.",
-    outcomes: [
-      "Information architecture that separated investor vs. SMB paths cleanly.",
-      "Experiment backlog mapped to analytics events for growth reviews.",
-      "Sales one-pagers aligned with the site narrative.",
-    ],
-    tags: ["Strategy", "Web", "Marketing"],
-    liveUrl: "https://example.com",
-    image: "/projects/ledgerwell.svg",
-    featured: false,
-  },
-  {
-    slug: "studio-elara",
-    title: "Studio Elara",
-    client: "Studio Elara",
-    context:
-      "Premium consumer brand refresh with editorial storytelling and launch films.",
-    outcomes: [
-      "Visual system tied marketing and product drops under one brand roof.",
-      "Email and paid landing parity tests lifted repeat visits.",
-      "Research-backed messaging hierarchy for founder-led sales.",
-    ],
-    tags: ["Marketing", "Strategy", "Web"],
-    liveUrl: "https://example.com",
-    image: "/projects/elara.svg",
     featured: true,
   },
 ];

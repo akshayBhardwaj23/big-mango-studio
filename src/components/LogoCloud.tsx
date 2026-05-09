@@ -1,8 +1,10 @@
 const brands = [
-  "Launchlane",
-  "SignalForge",
-  "Northwind",
-  "Aurora Labs",
+  "Fuchsia Shaw",
+  "Snaptix.ai",
+  "MagicStocks.ai",
+  "ZYYP",
+  "Slick Stiles",
+  "Startup-Analyst-XI",
 ];
 
 export function LogoCloud() {
