@@ -63,7 +63,7 @@ export default async function ProjectDetailPage({ params }: Props) {
             alt={`Project preview for ${project.title}`}
             fill
             priority
-            className="object-cover grayscale hover:grayscale-0 transition duration-700"
+            className="object-cover transition duration-700"
             sizes="(max-width: 1200px) 100vw, 1152px"
           />
         </div>

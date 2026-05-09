@@ -109,6 +109,27 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    slug: "magicstocks-ai",
+    title: "MagicStocks.ai",
+    client: "MagicStocks.ai",
+    context:
+      "Built an education-first AI platform for Indian markets—guided chat that explains stocks and concepts (not prescriptions), portfolio ingestion from broker screenshots into one view, and a conversion-ready SaaS dashboard aligned with compliance framing.",
+    outcomes: [
+      "Shipped a dark-mode product UI with AI Chat, portfolio workflows, and credit-based screenshot parsing—clear hierarchy for retail learners and repeat usage.",
+      "Designed conversational flows that return structured, cited-style answers (price context, summaries, technical framing) while keeping education-only positioning visible.",
+      "Implemented portfolio merge-from-uploads UX with add/replace modes, manual edits, and insights scaffolding—built for real holdings workflows without generic chat chrome.",
+    ],
+    tags: ["SaaS", "Web", "Strategy"],
+    liveUrl: "https://magicstocks.ai/",
+    image: "/projects/magicstocks-hero.png",
+    galleryImages: [
+      "/projects/magicstocks-hero.png",
+      "/projects/magicstocks-portfolio.png",
+      "/projects/magicstocks-chat.png",
+    ],
+    featured: true,
+  },
+  {
     slug: "aurora-analytics",
     title: "Aurora Analytics",
     client: "Aurora Analytics",

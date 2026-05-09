@@ -21,7 +21,7 @@ export function ProjectCard({ project, priority }: Props) {
           fill
           priority={priority}
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          className="object-cover grayscale transition duration-500 group-hover:scale-[1.03] group-hover:grayscale-0"
+          className="object-cover transition duration-500 group-hover:scale-[1.03]"
         />
         <span className="sr-only">View case: {project.title}</span>
       </Link>
