@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ButtonLink } from "@/components/ButtonLink";
+import { bookConversionPlan } from "@/content/cta";
 import { siteConfig, mailtoLink } from "@/content/site";
 import {
   getAllSlugs,
@@ -99,7 +100,19 @@ export default async function ProjectDetailPage({ params }: Props) {
             </p>
 
             <h2 className="mt-12 text-sm font-semibold uppercase tracking-[0.2em] text-neutral-500">
-              Outcomes
+              Results
+            </h2>
+            <ul className="mt-5 space-y-4 text-base leading-relaxed text-neutral-200">
+              {project.results.map((r) => (
+                <li key={r} className="flex gap-3">
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--accent)]" />
+                  <span>{r}</span>
+                </li>
+              ))}
+            </ul>
+
+            <h2 className="mt-12 text-sm font-semibold uppercase tracking-[0.2em] text-neutral-500">
+              What we delivered
             </h2>
             <ul className="mt-5 space-y-4 text-base leading-relaxed text-neutral-200">
               {project.outcomes.map((o) => (
@@ -125,12 +138,12 @@ export default async function ProjectDetailPage({ params }: Props) {
             </p>
             <ButtonLink
               href={mailtoLink(
-                `Big Mango Studio: 30-min call (similar work: ${project.title})`,
+                `${bookConversionPlan.mailSubject} (similar: ${project.title})`,
               )}
               variant="secondary"
-              className="mt-5 w-full justify-center py-3.5"
+              className="mt-5 w-full justify-center py-3.5 text-center leading-snug"
             >
-              Book a 30-min call
+              {bookConversionPlan.label}
             </ButtonLink>
           </aside>
         </div>

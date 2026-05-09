@@ -7,7 +7,7 @@ export const siteConfig = {
   email:
     process.env.NEXT_PUBLIC_SITE_EMAIL ?? "hello@bigmangostudio.com",
   description:
-    "High-converting websites for SaaS & AI products, shipped fast (often 7-14 days) by a small studio team that understands product, engineering, and conversion.",
+    "We turn SaaS and AI products into websites that drive demos, trials, and revenue. Shipped fast (often 7-14 days) by a small studio team focused on conversion.",
   locale: "en_US",
 } as const;
 

@@ -35,7 +35,7 @@ export default function OpengraphImage() {
             lineHeight: 1.3,
           }}
         >
-          High-converting websites for SaaS &amp; AI. Shipped fast by a focused studio team.
+          SaaS &amp; AI websites built for demos, trials, and revenue. Shipped fast by a focused studio team.
         </div>
       </div>
     ),

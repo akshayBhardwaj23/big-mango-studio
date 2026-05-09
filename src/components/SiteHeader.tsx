@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { bookConversionPlan } from "@/content/cta";
 import { siteConfig, mailtoLink } from "@/content/site";
 
 const nav = [
@@ -15,10 +16,12 @@ const nav = [
 function NavCta({ className = "" }: { className?: string }) {
   return (
     <a
-      href={mailtoLink("Big Mango Studio: Book a 30-min call")}
+      href={mailtoLink(bookConversionPlan.mailSubject)}
       className={`group inline-flex items-center gap-3 rounded-full border border-white/35 bg-white/5 px-4 py-2 text-sm font-medium text-white backdrop-blur-md transition hover:border-white/55 hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/50 ${className}`}
     >
-      <span>Book a 30-min call</span>
+      <span className="max-w-[min(100%,14rem)] leading-snug sm:max-w-none">
+        {bookConversionPlan.label}
+      </span>
       <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[var(--accent)] text-white transition group-hover:brightness-110">
         <svg
           width="18"

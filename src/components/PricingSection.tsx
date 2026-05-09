@@ -20,6 +20,10 @@ export function PricingSection() {
           quote depends on pages, assets, and integrations; we&apos;ll confirm on
           a 30-min call.
         </p>
+        <p className="mt-6 max-w-2xl rounded-2xl border border-[var(--accent)]/25 bg-[var(--accent)]/10 px-5 py-4 text-base font-medium leading-relaxed text-neutral-200">
+          Most founders start with ₹60k+ to ₹1L+ projects once we define scope on
+          a call.
+        </p>
         <div className="mt-12 grid gap-6 lg:grid-cols-3 lg:gap-8">
           {pricingTiers.map((tier) => (
             <article

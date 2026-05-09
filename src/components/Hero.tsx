@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { bookConversionPlan, getWebsite7Days } from "@/content/cta";
 import { mailtoLink } from "@/content/site";
 import { offers } from "@/content/services";
 
@@ -54,22 +55,22 @@ export function Hero() {
               Conversion-focused studio · SaaS &amp; AI
             </p>
             <h1 className="mt-6 font-[family-name:var(--font-display)] text-[clamp(2.1rem,5vw,3.5rem)] font-bold leading-[1.08] tracking-tight text-white">
-              We build{" "}
+              We turn SaaS &amp; AI products into{" "}
               <span className="text-[var(--accent)]">high-converting websites</span>{" "}
-              for SaaS &amp; AI products
+              that drive demos, trials, and revenue.
             </h1>
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-white/80 sm:text-xl">
-              From idea → live site in 7-14 days. Built for conversion, not just
-              design.
+              Traffic should turn into pipeline. We ship in 7-14 days with copy,
+              UX, and measurement aligned to signups and revenue, not decoration.
             </p>
             <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4">
               <HeaderCta
-                href={mailtoLink("Big Mango Studio: Book a 30-min call")}
-                label="Book a 30-min call"
+                href={mailtoLink(bookConversionPlan.mailSubject)}
+                label={bookConversionPlan.label}
               />
               <HeaderCta
-                href={mailtoLink("Big Mango Studio: Get your website in 7 days")}
-                label="Get your website in 7 days"
+                href={mailtoLink(getWebsite7Days.mailSubject)}
+                label={getWebsite7Days.label}
               />
               <Link
                 href="/#work"

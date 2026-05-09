@@ -10,6 +10,8 @@ import { ServiceGrid } from "@/components/ServiceGrid";
 import { ButtonLink } from "@/components/ButtonLink";
 import { WhoForSection } from "@/components/WhoForSection";
 import { WhyUs } from "@/components/WhyUs";
+import { TestimonialsSection } from "@/components/TestimonialsSection";
+import { bookConversionPlan, getWebsite7Days } from "@/content/cta";
 import { siteConfig, mailtoLink } from "@/content/site";
 import { getFeaturedProjects } from "@/lib/projects";
 
@@ -23,6 +25,8 @@ export default function HomePage() {
       <LogoCloud />
 
       <WhyUs />
+
+      <TestimonialsSection />
 
       <OfferSection />
 
@@ -55,11 +59,11 @@ export default function HomePage() {
             View all projects
           </ButtonLink>
           <ButtonLink
-            href={mailtoLink("Big Mango Studio: Get your website in 7 days")}
+            href={mailtoLink(getWebsite7Days.mailSubject)}
             variant="primary"
             className="px-10 py-3.5 text-base"
           >
-            Get your website in 7 days
+            {getWebsite7Days.label}
           </ButtonLink>
         </div>
       </Section>
@@ -96,23 +100,23 @@ export default function HomePage() {
             Ready for a site that converts?
           </h2>
           <p className="mt-5 text-lg text-white/85">
-            Book a 30-min call. We&apos;ll confirm scope, timeline (often 7-14
+            Walk away with a clear conversion plan: scope, timeline (often 7-14
             days), and the fastest path to a live page.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <ButtonLink
-              href={mailtoLink("Big Mango Studio: Book a 30-min call")}
+              href={mailtoLink(bookConversionPlan.mailSubject)}
               variant="inverse"
               className="px-10 py-3.5 text-base shadow-xl shadow-black/30"
             >
-              Book a 30-min call
+              {bookConversionPlan.label}
             </ButtonLink>
             <ButtonLink
-              href={mailtoLink("Big Mango Studio: Get your website in 7 days")}
+              href={mailtoLink(getWebsite7Days.mailSubject)}
               variant="secondary"
               className="border-white/40 bg-black/25 px-10 py-3.5 text-base text-white backdrop-blur-sm hover:bg-black/40"
             >
-              Get your website in 7 days
+              {getWebsite7Days.label}
             </ButtonLink>
           </div>
           <p className="mt-6 text-sm text-white/70">

@@ -50,11 +50,14 @@ export function ProjectCard({ project, priority }: Props) {
         <p className="mt-3 text-sm leading-relaxed text-neutral-400">
           {project.context}
         </p>
-        <ul className="mt-4 space-y-2 text-sm text-neutral-300">
-          {project.outcomes.slice(0, 2).map((o) => (
-            <li key={o} className="flex gap-2">
+        <p className="mt-5 text-xs font-semibold uppercase tracking-[0.2em] text-[var(--accent)]">
+          Results
+        </p>
+        <ul className="mt-3 space-y-2 text-sm text-neutral-200">
+          {project.results.slice(0, 2).map((r) => (
+            <li key={r} className="flex gap-2">
               <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--accent)]" />
-              <span>{o}</span>
+              <span>{r}</span>
             </li>
           ))}
         </ul>
