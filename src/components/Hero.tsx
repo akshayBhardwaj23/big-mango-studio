@@ -59,16 +59,16 @@ export function Hero() {
               for SaaS &amp; AI products
             </h1>
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-white/80 sm:text-xl">
-              From idea → live site in 7–14 days. Built for conversion, not just
+              From idea → live site in 7-14 days. Built for conversion, not just
               design.
             </p>
             <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4">
               <HeaderCta
-                href={mailtoLink("Book a 30-min call — Big Mango Studio")}
+                href={mailtoLink("Big Mango Studio: Book a 30-min call")}
                 label="Book a 30-min call"
               />
               <HeaderCta
-                href={mailtoLink("Get your website in 7 days — Big Mango Studio")}
+                href={mailtoLink("Big Mango Studio: Get your website in 7 days")}
                 label="Get your website in 7 days"
               />
               <Link

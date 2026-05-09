@@ -58,7 +58,7 @@ export function WorkFilter({ projects }: Props) {
       </div>
       {filtered.length === 0 ? (
         <p className="mt-10 text-center text-neutral-400">
-          No projects in this category yet — try another filter.
+          No projects in this category yet. Try another filter.
         </p>
       ) : null}
     </div>

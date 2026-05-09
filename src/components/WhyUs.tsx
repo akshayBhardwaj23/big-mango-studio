@@ -11,7 +11,7 @@ export function WhyUs() {
             Why us
           </p>
           <h2 className="mt-4 font-[family-name:var(--font-display)] text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl md:text-5xl">
-            An engineering-led studio — product{" "}
+            An engineering-led studio: product{" "}
             <span className="text-[var(--accent)]">+ conversion</span>.
           </h2>
           <div className="mt-8 rounded-2xl border border-white/[0.1] bg-[var(--surface-elevated)] p-4">
@@ -60,7 +60,7 @@ export function WhyUs() {
               Recognition
             </p>
             <h3 className="mt-3 font-[family-name:var(--font-display)] text-xl font-semibold text-white">
-              Google Gen AI Exchange Hackathon — Top 10 Finalist
+              Google Gen AI Exchange Hackathon: Top 10 Finalist
             </h3>
             <p className="mt-2 text-sm text-neutral-400">
               Recognized among nationwide submissions for the AI Analyst for
@@ -93,25 +93,25 @@ export function WhyUs() {
         <div className="space-y-5 text-lg leading-relaxed text-neutral-400">
           <p>
             Big Mango Studio isn&apos;t a traditional agency or a design-only
-            shop. We&apos;re a small product-minded team led by Akshay Bhardwaj
-            — engineers and builders who&apos;ve spent years shipping real
-            products — from banking platforms to AI tools — where performance,
+            shop. We&apos;re a small product-minded team led by Akshay Bhardwaj,
+            engineers and builders who&apos;ve spent years shipping real
+            products from banking platforms to AI tools, where performance,
             clarity, and user behavior actually matter.
           </p>
           <p>
             That experience changes how we build websites. We don&apos;t start
-            with design — we start with conversion: what does the user need to
+            with design; we start with conversion: what does the user need to
             understand, what action should they take, and what removes doubt?
           </p>
           <p>
             We&apos;ve built AI SaaS products, product surfaces, and
-            launch-ready marketing pages where the goal isn&apos;t aesthetics
-            — it&apos;s
+            launch-ready marketing pages where the goal isn&apos;t aesthetics;
+            it&apos;s
             outcomes: more qualified signups, more demos, and faster decisions.
           </p>
           <p>
             Today, we work with SaaS and AI founders to take ideas from zero
-            → live site in days, not months — with a focus on clarity, speed,
+            → live site in days, not months, with a focus on clarity, speed,
             and conversion from day one.
           </p>
           <div className="rounded-[1.5rem] border border-white/[0.1] bg-[var(--surface-elevated)] p-6">
@@ -142,7 +142,7 @@ export function WhyUs() {
             </p>
           </div>
           <ButtonLink
-            href={mailtoLink("Book a 30-min call — Big Mango Studio")}
+            href={mailtoLink("Big Mango Studio: Book a 30-min call")}
             variant="primary"
             className="mt-4 inline-flex px-8 py-3.5 text-base"
           >

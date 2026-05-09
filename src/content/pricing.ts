@@ -1,6 +1,6 @@
 export type PricingTier = {
   name: string;
-  /** Display price — ranges are fine */
+  /** Display price (ranges are fine) */
   price: string;
   description: string;
   bullets: string[];
@@ -22,7 +22,7 @@ export const pricingTiers: PricingTier[] = [
     price: "₹60k+",
     description: "Multi-page site + conversion copy.",
     bullets: [
-      "3–5 pages (home, product, pricing, FAQ, etc.)",
+      "3-5 pages (home, product, pricing, FAQ, etc.)",
       "Messaging structure for SaaS / AI buyers",
       "SEO-friendly structure + metadata basics",
     ],
@@ -30,7 +30,7 @@ export const pricingTiers: PricingTier[] = [
   {
     name: "Premium",
     price: "₹1L+",
-    description: "Full product marketing site — deeper IA and polish.",
+    description: "Full product marketing site with deeper IA and polish.",
     bullets: [
       "More pages / modular sections for launches",
       "Complex layouts (compare, docs-adjacent marketing, etc.)",

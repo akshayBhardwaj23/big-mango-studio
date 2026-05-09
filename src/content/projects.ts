@@ -110,11 +110,11 @@ export const projects: Project[] = [
     title: "MagicStocks.ai",
     client: "MagicStocks.ai",
     context:
-      "Built an education-first AI platform for Indian markets—guided chat that explains stocks and concepts (not prescriptions), portfolio ingestion from broker screenshots into one view, and a conversion-ready SaaS dashboard aligned with compliance framing.",
+      "Built an education-first AI platform for Indian markets: guided chat that explains stocks and concepts (not prescriptions), portfolio ingestion from broker screenshots into one view, and a conversion-ready SaaS dashboard aligned with compliance framing.",
     outcomes: [
-      "Shipped a dark-mode product UI with AI Chat, portfolio workflows, and credit-based screenshot parsing—clear hierarchy for retail learners and repeat usage.",
+      "Shipped a dark-mode product UI with AI Chat, portfolio workflows, and credit-based screenshot parsing, with clear hierarchy for retail learners and repeat usage.",
       "Designed conversational flows that return structured, cited-style answers (price context, summaries, technical framing) while keeping education-only positioning visible.",
-      "Implemented portfolio merge-from-uploads UX with add/replace modes, manual edits, and insights scaffolding—built for real holdings workflows without generic chat chrome.",
+      "Implemented portfolio merge-from-uploads UX with add/replace modes, manual edits, and insights scaffolding, built for real holdings workflows without generic chat chrome.",
     ],
     tags: ["SaaS", "Web", "Strategy"],
     liveUrl: "https://magicstocks.ai/",
@@ -131,7 +131,7 @@ export const projects: Project[] = [
     title: "ZYYP",
     client: "zyyp.ai",
     context:
-      "Built a light, conversion-led marketing site for an AI autopilot product—support triage, drafted replies with Shopify-style actions, and analytics narratives—plus interactive demo sections that show the product without burying the signup path.",
+      "Built a light, conversion-led marketing site for an AI autopilot product: support triage, drafted replies with Shopify-style actions, and analytics narratives, plus interactive demo sections that show the product without burying the signup path.",
     outcomes: [
       "Designed a minimal SaaS landing with floating nav, peach accents, and a live drafter preview that sells the workflow (email → AI draft → order updates → insight pulse).",
       "Shipped a step-by-step walkthrough block pairing narrative beats with a high-confidence draft UI and clear action labels for ops teams.",

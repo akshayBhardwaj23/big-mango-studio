@@ -7,7 +7,7 @@ export type OfferItem = {
 export const offers: OfferItem[] = [
   {
     title: "SaaS landing pages",
-    body: "One sharp page: positioning, proof, pricing cues, and CTAs tuned for signups and demos — not just “pretty.”",
+    body: "One sharp page: positioning, proof, pricing cues, and CTAs tuned for signups and demos, not just “pretty.”",
   },
   {
     title: "MVP websites",
@@ -28,11 +28,11 @@ export type ServicePillar = {
 export const servicePillars: ServicePillar[] = [
   {
     title: "Conversion-led UX & copy",
-    body: "Headlines, sections, and CTAs shaped around one funnel job — so traffic turns into trials, calls, or signups.",
+    body: "Headlines, sections, and CTAs shaped around one funnel job so traffic turns into trials, calls, or signups.",
   },
   {
     title: "Production-ready builds",
-    body: "Next.js/React sites that are fast, accessible, and easy to iterate — built like software, not a static brochure.",
+    body: "Next.js/React sites that are fast, accessible, and easy to iterate: built like software, not a static brochure.",
   },
   {
     title: "AI / SaaS messaging",
@@ -40,6 +40,6 @@ export const servicePillars: ServicePillar[] = [
   },
   {
     title: "Launch support",
-    body: "Landing experiments, launch checks, and tight feedback loops so you ship on a deadline (often 7–14 days for focused scopes).",
+    body: "Landing experiments, launch checks, and tight feedback loops so you ship on a deadline (often 7-14 days for focused scopes).",
   },
 ];

@@ -22,12 +22,12 @@ const mono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} — High-converting SaaS & AI websites`,
-    template: `%s — ${siteConfig.name}`,
+    default: `${siteConfig.name} | High-converting SaaS & AI websites`,
+    template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
   openGraph: {
-    title: `${siteConfig.name} — High-converting SaaS & AI websites`,
+    title: `${siteConfig.name} | High-converting SaaS & AI websites`,
     description: siteConfig.description,
     url: siteConfig.url,
     siteName: siteConfig.name,
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.name} — High-converting SaaS & AI websites`,
+    title: `${siteConfig.name} | High-converting SaaS & AI websites`,
     description: siteConfig.description,
   },
 };

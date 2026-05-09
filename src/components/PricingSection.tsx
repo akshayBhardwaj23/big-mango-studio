@@ -16,7 +16,7 @@ export function PricingSection() {
           Clear packages. No mystery invoices.
         </h2>
         <p className="mt-4 max-w-2xl text-lg text-neutral-400">
-          Ranges beat silence — most projects fall into one of these. Final
+          Ranges beat silence. Most projects fall into one of these. Final
           quote depends on pages, assets, and integrations; we&apos;ll confirm on
           a 30-min call.
         </p>
@@ -42,7 +42,9 @@ export function PricingSection() {
                 ))}
               </ul>
               <ButtonLink
-                href={mailtoLink(`Pricing question — ${tier.name} — Big Mango Studio`)}
+                href={mailtoLink(
+                  `Big Mango Studio: Pricing question (${tier.name})`,
+                )}
                 variant="secondary"
                 className="mt-8 w-full justify-center py-3"
               >

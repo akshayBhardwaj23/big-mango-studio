@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: project.title,
     description: project.context,
     openGraph: {
-      title: `${project.title} — ${siteConfig.name}`,
+      title: `${project.title} | ${siteConfig.name}`,
       description: project.context,
     },
   };
@@ -124,7 +124,9 @@ export default async function ProjectDetailPage({ params }: Props) {
               Want a comparable launch or redesign? Book a short call and we&apos;ll align on scope and timeline.
             </p>
             <ButtonLink
-              href={mailtoLink(`Book a 30-min call — similar to ${project.title}`)}
+              href={mailtoLink(
+                `Big Mango Studio: 30-min call (similar work: ${project.title})`,
+              )}
               variant="secondary"
               className="mt-5 w-full justify-center py-3.5"
             >

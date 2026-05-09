@@ -1,7 +1,7 @@
 const steps = [
   {
     title: "Discover & align",
-    body: "We clarify audience, offer, and success metrics — often with a tight workshop — so the site and campaigns chase one measurable outcome.",
+    body: "We clarify audience, offer, and success metrics (often with a tight workshop) so the site and campaigns chase one measurable outcome.",
   },
   {
     title: "Build & launch",
@@ -9,7 +9,7 @@ const steps = [
   },
   {
     title: "Measure & iterate",
-    body: "We review funnel signals, prioritize experiments, and fold learnings back into the site — especially important after SaaS or AI releases.",
+    body: "We review funnel signals, prioritize experiments, and fold learnings back into the site. Especially important after SaaS or AI releases.",
   },
 ];
 

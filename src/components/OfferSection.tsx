@@ -11,7 +11,7 @@ export function OfferSection() {
           What we Offer
         </p>
         <h2 className="mt-3 font-[family-name:var(--font-display)] text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl">
-          Built for SaaS &amp; AI launches — not generic agency pages.
+          Built for SaaS &amp; AI launches, not generic agency pages.
         </h2>
         <p className="mt-4 max-w-2xl text-lg text-neutral-400">
           Three ways teams usually start. Pick one; we&apos;ll tighten scope on a

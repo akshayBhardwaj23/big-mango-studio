@@ -1,7 +1,7 @@
 const audiences = [
   {
     title: "SaaS founders",
-    body: "You need a credible story, pricing, and proof — fast — without a bloated agency process.",
+    body: "You need a credible story, pricing, and proof fast, without a bloated agency process.",
   },
   {
     title: "Early-stage startups",
@@ -24,7 +24,7 @@ export function WhoForSection() {
           If you ship software, you’re probably in the right place.
         </h2>
         <p className="mt-4 max-w-2xl text-lg text-neutral-400">
-          Not a fit for everyone — best for teams who want revenue-minded pages
+          Not a fit for everyone. Best for teams who want revenue-minded pages
           and a studio team that can reason about product and implementation.
         </p>
         <div className="mt-12 grid gap-6 md:grid-cols-3 md:gap-8">

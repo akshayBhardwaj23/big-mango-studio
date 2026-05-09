@@ -15,7 +15,7 @@ const nav = [
 function NavCta({ className = "" }: { className?: string }) {
   return (
     <a
-      href={mailtoLink("Book a 30-min call — Big Mango Studio")}
+      href={mailtoLink("Big Mango Studio: Book a 30-min call")}
       className={`group inline-flex items-center gap-3 rounded-full border border-white/35 bg-white/5 px-4 py-2 text-sm font-medium text-white backdrop-blur-md transition hover:border-white/55 hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/50 ${className}`}
     >
       <span>Book a 30-min call</span>

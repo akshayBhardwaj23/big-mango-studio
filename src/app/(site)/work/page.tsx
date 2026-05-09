@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Work",
   description: `SaaS & AI launches and high-converting sites from ${siteConfig.name}.`,
   openGraph: {
-    title: `Work — ${siteConfig.name}`,
+    title: `Work | ${siteConfig.name}`,
     description: `Selected SaaS, AI, and product marketing builds.`,
   },
 };

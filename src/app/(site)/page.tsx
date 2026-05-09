@@ -29,8 +29,8 @@ export default function HomePage() {
       <Section
         id="services"
         eyebrow="How we build"
-        title="Conversion-first execution — end to end."
-        description="Our team ships engineering-backed builds for SaaS & AI: performance, clarity, and measurement — not decoration for its own sake."
+        title="Conversion-first execution, end to end."
+        description="Our team ships engineering-backed builds for SaaS & AI: performance, clarity, and measurement. Not decoration for its own sake."
         className="bg-[var(--surface-muted)]"
       >
         <ServiceGrid />
@@ -42,7 +42,7 @@ export default function HomePage() {
         id="work"
         eyebrow="Proof"
         title="Sites that ship and sell."
-        description="SaaS, AI, and ecommerce launches — built for clarity, conversion, and ship speed."
+        description="SaaS, AI, and ecommerce launches built for clarity, conversion, and ship speed."
         className="bg-black"
       >
         <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3 xl:gap-10">
@@ -55,7 +55,7 @@ export default function HomePage() {
             View all projects
           </ButtonLink>
           <ButtonLink
-            href={mailtoLink("Get your website in 7 days — Big Mango Studio")}
+            href={mailtoLink("Big Mango Studio: Get your website in 7 days")}
             variant="primary"
             className="px-10 py-3.5 text-base"
           >
@@ -68,7 +68,7 @@ export default function HomePage() {
         id="process"
         eyebrow="Process"
         title="Fast loop: align → ship → measure."
-        description="Built for founders with deadlines — clear scope, visible progress, and iteration tied to conversion signals."
+        description="Built for founders with deadlines: clear scope, visible progress, and iteration tied to conversion signals."
         className="bg-[var(--surface-muted)]"
       >
         <ProcessSteps />
@@ -79,7 +79,7 @@ export default function HomePage() {
       <Section
         eyebrow="FAQ"
         title="Questions founders ask before we start."
-        description="Straight answers — no agency fog."
+        description="Straight answers, no agency fog."
         align="center"
         className="bg-black"
       >
@@ -96,19 +96,19 @@ export default function HomePage() {
             Ready for a site that converts?
           </h2>
           <p className="mt-5 text-lg text-white/85">
-            Book a 30-min call — we&apos;ll confirm scope, timeline (often 7–14
+            Book a 30-min call. We&apos;ll confirm scope, timeline (often 7-14
             days), and the fastest path to a live page.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <ButtonLink
-              href={mailtoLink("Book a 30-min call — Big Mango Studio")}
+              href={mailtoLink("Big Mango Studio: Book a 30-min call")}
               variant="inverse"
               className="px-10 py-3.5 text-base shadow-xl shadow-black/30"
             >
               Book a 30-min call
             </ButtonLink>
             <ButtonLink
-              href={mailtoLink("Get your website in 7 days — Big Mango Studio")}
+              href={mailtoLink("Big Mango Studio: Get your website in 7 days")}
               variant="secondary"
               className="border-white/40 bg-black/25 px-10 py-3.5 text-base text-white backdrop-blur-sm hover:bg-black/40"
             >
