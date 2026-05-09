@@ -1,4 +1,4 @@
-/** Short list for hero strip + “What I offer” */
+/** Short list for hero strip + “What we Offer” */
 export type OfferItem = {
   title: string;
   body: string;

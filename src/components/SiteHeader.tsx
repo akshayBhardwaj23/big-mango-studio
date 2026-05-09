@@ -6,9 +6,9 @@ import { siteConfig, mailtoLink } from "@/content/site";
 
 const nav = [
   { href: "/", label: "Home" },
-  { href: "/#offer", label: "What I offer" },
+  { href: "/#offer", label: "What we Offer" },
   { href: "/#pricing", label: "Pricing" },
-  { href: "/#services", label: "How I build" },
+  { href: "/#services", label: "How we build" },
   { href: "/work", label: "Work" },
 ];
 

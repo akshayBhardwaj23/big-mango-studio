@@ -1,15 +1,15 @@
 const items = [
   {
     q: "Are you a design agency?",
-    a: "Positioning-wise: I’m a conversion-focused builder for SaaS & AI — design matters, but the north star is trials, demos, and qualified leads. The implementation is done with engineering-quality judgment.",
+    a: "We’re a conversion-focused studio for SaaS & AI — design matters, but the north star is trials, demos, and qualified leads. Our builds carry engineering-quality judgment end to end.",
   },
   {
     q: "Do you only build websites?",
-    a: "The website is the hub — but I often pair it with launch messaging, landing experiments, and analytics hooks so you can learn fast after go-live.",
+    a: "The website is the hub — and we often pair it with launch messaging, landing experiments, and analytics hooks so you can learn fast after go-live.",
   },
   {
     q: "How fast can we ship?",
-    a: "Many focused scopes land in ~7–14 days depending on assets and integrations. If timing is tight, tell me your deadline on the first message — we’ll only commit if it’s realistic.",
+    a: "Many focused scopes land in ~7–14 days depending on assets and integrations. If timing is tight, share your deadline in the first message — we’ll only commit if it’s realistic.",
   },
 ];
 

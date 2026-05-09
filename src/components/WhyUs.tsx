@@ -11,7 +11,7 @@ export function WhyUs() {
             Why us
           </p>
           <h2 className="mt-4 font-[family-name:var(--font-display)] text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl md:text-5xl">
-            Led by an engineer who understands product{" "}
+            An engineering-led studio — product{" "}
             <span className="text-[var(--accent)]">+ conversion</span>.
           </h2>
           <div className="mt-8 rounded-2xl border border-white/[0.1] bg-[var(--surface-elevated)] p-4">
@@ -92,10 +92,11 @@ export function WhyUs() {
         </div>
         <div className="space-y-5 text-lg leading-relaxed text-neutral-400">
           <p>
-            Big Mango Studio is not a traditional agency or a design-only
-            studio. We are led by Akshay Bhardwaj, an engineer who has spent
-            years building real products — from banking platforms to AI tools —
-            where performance, clarity, and user behavior actually matter.
+            Big Mango Studio isn&apos;t a traditional agency or a design-only
+            shop. We&apos;re a small product-minded team led by Akshay Bhardwaj
+            — engineers and builders who&apos;ve spent years shipping real
+            products — from banking platforms to AI tools — where performance,
+            clarity, and user behavior actually matter.
           </p>
           <p>
             That experience changes how we build websites. We don&apos;t start
@@ -136,8 +137,8 @@ export function WhyUs() {
               </li>
             </ul>
             <p className="mt-5 text-sm italic text-white">
-              “No fluff. No bloated agency process. Just focused builds that
-              ship fast and perform.”
+              “No fluff. No bloated agency process. Just focused builds from our
+              team that ship fast and perform.”
             </p>
           </div>
           <ButtonLink

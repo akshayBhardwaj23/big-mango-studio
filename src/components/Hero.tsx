@@ -51,7 +51,7 @@ export function Hero() {
         <div className="flex flex-col gap-10 lg:grid lg:grid-cols-[1fr_minmax(0,420px)] lg:items-end lg:gap-12">
           <div className="max-w-3xl">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-white/70">
-              Conversion-focused builder · SaaS &amp; AI
+              Conversion-focused studio · SaaS &amp; AI
             </p>
             <h1 className="mt-6 font-[family-name:var(--font-display)] text-[clamp(2.1rem,5vw,3.5rem)] font-bold leading-[1.08] tracking-tight text-white">
               We build{" "}

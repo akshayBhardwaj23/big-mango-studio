@@ -42,7 +42,7 @@ export function SiteFooter() {
                   href="/#offer"
                   className="text-neutral-300 hover:text-white"
                 >
-                  What I offer
+                  What we Offer
                 </Link>
               </li>
               <li>

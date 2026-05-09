@@ -25,7 +25,7 @@ export function WhoForSection() {
         </h2>
         <p className="mt-4 max-w-2xl text-lg text-neutral-400">
           Not a fit for everyone — best for teams who want revenue-minded pages
-          and a builder who can reason about product and implementation.
+          and a studio team that can reason about product and implementation.
         </p>
         <div className="mt-12 grid gap-6 md:grid-cols-3 md:gap-8">
           {audiences.map((a, i) => (

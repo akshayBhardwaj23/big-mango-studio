@@ -8,7 +8,7 @@ export function OfferSection() {
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--accent)]">
-          What I offer
+          What we Offer
         </p>
         <h2 className="mt-3 font-[family-name:var(--font-display)] text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl">
           Built for SaaS &amp; AI launches — not generic agency pages.

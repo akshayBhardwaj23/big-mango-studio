@@ -28,9 +28,9 @@ export default function HomePage() {
 
       <Section
         id="services"
-        eyebrow="How I build"
+        eyebrow="How we build"
         title="Conversion-first execution — end to end."
-        description="Engineering-backed builds for SaaS & AI: performance, clarity, and measurement — not decoration for its own sake."
+        description="Our team ships engineering-backed builds for SaaS & AI: performance, clarity, and measurement — not decoration for its own sake."
         className="bg-[var(--surface-muted)]"
       >
         <ServiceGrid />
