@@ -34,36 +34,47 @@ function HeaderCta({ href, label }: { href: string; label: string }) {
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden rounded-b-[2.5rem] bg-black md:rounded-b-[3.5rem]">
+    <section className="relative flex min-h-[min(88vh,56rem)] flex-col overflow-hidden rounded-b-[2.5rem] bg-black md:rounded-b-[3.5rem]">
+      <Image
+        src="/hero-background.png"
+        alt=""
+        fill
+        priority
+        className="object-cover object-[center_25%] sm:object-[center_20%]"
+        sizes="100vw"
+      />
+      {/* Readability: darken left (copy zone), lighter toward right so the portrait reads */}
       <div
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_100%_80%_at_50%_-15%,rgba(255,92,26,0.55)_0%,rgba(180,50,20,0.25)_28%,transparent_58%)]"
+        className="pointer-events-none absolute inset-0 bg-gradient-to-r from-black via-black/80 to-black/25 sm:from-black sm:via-black/70 sm:to-transparent"
         aria-hidden
       />
       <div
-        className="pointer-events-none absolute -right-32 top-1/4 h-[420px] w-[420px] rounded-full bg-orange-600/25 blur-[100px]"
+        className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-black/40"
         aria-hidden
       />
       <div
-        className="pointer-events-none absolute bottom-0 left-1/4 h-64 w-64 rounded-full bg-red-900/20 blur-[80px]"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_90%_70%_at_70%_40%,transparent_0%,rgba(0,0,0,0.35)_55%,rgba(0,0,0,0.55)_100%)]"
         aria-hidden
       />
 
-      <div className="relative mx-auto max-w-6xl px-4 pb-12 pt-10 sm:px-6 sm:pb-16 sm:pt-14 lg:pb-20 lg:pt-16">
-        <div className="flex flex-col gap-10 lg:grid lg:grid-cols-[1fr_minmax(0,420px)] lg:items-end lg:gap-12">
-          <div className="max-w-3xl">
-            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-white/70">
+      <div className="relative z-10 mx-auto flex w-full max-w-6xl flex-1 flex-col justify-between gap-12 px-4 pb-12 pt-10 sm:px-6 sm:pb-16 sm:pt-14 lg:gap-16 lg:pb-20 lg:pt-16">
+        <div className="grid gap-10 lg:grid-cols-2 lg:gap-12 lg:items-start xl:gap-16">
+          <div className="min-w-0">
+            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-white/75 drop-shadow-sm">
               Conversion-focused studio · SaaS &amp; AI
             </p>
-            <h1 className="mt-6 font-[family-name:var(--font-display)] text-[clamp(2.1rem,5vw,3.5rem)] font-bold leading-[1.08] tracking-tight text-white">
+            <h1 className="mt-6 font-[family-name:var(--font-display)] text-[clamp(2.1rem,5vw,3.5rem)] font-bold leading-[1.08] tracking-tight text-white drop-shadow-md">
               We turn SaaS &amp; AI products into{" "}
               <span className="text-[var(--accent)]">high-converting websites</span>{" "}
               that drive demos, trials, and revenue.
             </h1>
-            <p className="mt-8 max-w-xl text-lg leading-relaxed text-white/80 sm:text-xl">
+          </div>
+          <div className="flex min-w-0 flex-col lg:border-l lg:border-white/10 lg:pl-12">
+            <p className="max-w-xl text-lg leading-relaxed text-white/90 drop-shadow lg:max-w-none sm:text-xl">
               Traffic should turn into pipeline. We ship in 7-14 days with copy,
               UX, and measurement aligned to signups and revenue, not decoration.
             </p>
-            <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4">
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4 lg:mt-10">
               <HeaderCta
                 href={mailtoLink(bookConversionPlan.mailSubject)}
                 label={bookConversionPlan.label}
@@ -74,32 +85,15 @@ export function Hero() {
               />
               <Link
                 href="/#work"
-                className="text-center text-sm font-medium text-white/65 underline-offset-4 transition hover:text-white hover:underline sm:text-left"
+                className="text-center text-sm font-medium text-white/80 underline-offset-4 transition hover:text-white hover:underline sm:text-left"
               >
                 See recent work →
               </Link>
             </div>
           </div>
-
-          <div className="relative mx-auto w-full max-w-md lg:mx-0 lg:max-w-none">
-            <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[2rem] border border-white/10 bg-neutral-900 shadow-2xl shadow-black/60 sm:aspect-[3/4] lg:aspect-square">
-              <Image
-                src="/hero-creative.png"
-                alt=""
-                fill
-                priority
-                className="object-cover object-[center_20%]"
-                sizes="(max-width: 1024px) 100vw, 420px"
-              />
-              <div
-                className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-orange-900/10"
-                aria-hidden
-              />
-            </div>
-          </div>
         </div>
 
-        <div className="mt-16 grid grid-cols-1 gap-8 border-t border-white/10 pt-10 sm:grid-cols-3 md:gap-6">
+        <div className="grid grid-cols-1 gap-8 border-t border-white/15 pt-10 sm:grid-cols-3 md:gap-6">
           {offers.map((o, i) => (
             <div key={o.title} className="min-w-0">
               <span className="font-mono text-xs font-medium tabular-nums text-[var(--accent)]">
@@ -108,7 +102,7 @@ export function Hero() {
               <p className="mt-2 font-[family-name:var(--font-display)] text-sm font-semibold leading-snug text-white sm:text-base">
                 {o.title}
               </p>
-              <p className="mt-2 text-xs leading-relaxed text-white/55 sm:text-sm">
+              <p className="mt-2 text-xs leading-relaxed text-white/65 sm:text-sm">
                 {o.body}
               </p>
             </div>
