@@ -130,6 +130,27 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    slug: "zyyp-ai",
+    title: "ZYYP",
+    client: "zyyp.ai",
+    context:
+      "Built a light, conversion-led marketing site for an AI autopilot product—support triage, drafted replies with Shopify-style actions, and analytics narratives—plus interactive demo sections that show the product without burying the signup path.",
+    outcomes: [
+      "Designed a minimal SaaS landing with floating nav, peach accents, and a live drafter preview that sells the workflow (email → AI draft → order updates → insight pulse).",
+      "Shipped a step-by-step walkthrough block pairing narrative beats with a high-confidence draft UI and clear action labels for ops teams.",
+      "Surfaced an insights story with dashboard-style proof: revenue signals, sentiment trends, and automation impact cards alongside the hero narrative.",
+    ],
+    tags: ["SaaS", "Web", "Marketing"],
+    liveUrl: "https://zyyp.ai/",
+    image: "/projects/zyyp-hero.png",
+    galleryImages: [
+      "/projects/zyyp-hero.png",
+      "/projects/zyyp-demo.png",
+      "/projects/zyyp-insights.png",
+    ],
+    featured: true,
+  },
+  {
     slug: "aurora-analytics",
     title: "Aurora Analytics",
     client: "Aurora Analytics",
