@@ -20,12 +20,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const project = getProjectBySlug(slug);
   if (!project) return { title: "Project" };
 
+  const ogImageUrl = new URL(project.image, siteConfig.url).href;
+
   return {
     title: project.title,
     description: project.context,
     openGraph: {
       title: `${project.title} | ${siteConfig.name}`,
       description: project.context,
+      url: `${siteConfig.url.replace(/\/$/, "")}/work/${slug}`,
+      type: "website",
+      images: [
+        {
+          url: ogImageUrl,
+          alt: `${project.title} case study preview`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${project.title} | ${siteConfig.name}`,
+      description: project.context,
+      images: [ogImageUrl],
     },
   };
 }
