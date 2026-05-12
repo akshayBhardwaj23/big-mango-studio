@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { bookConversionPlan } from "@/content/cta";
-import { siteConfig, mailtoLink } from "@/content/site";
+import { mailtoLink, siteConfig } from "@/content/site";
 
 const nav = [
   { href: "/", label: "Home" },
@@ -52,20 +52,23 @@ export function SiteHeader() {
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
         <Link
           href="/"
-          className="flex items-center gap-3 font-[family-name:var(--font-display)] text-lg font-bold tracking-tight text-white"
+          className="flex shrink-0 items-center gap-3"
           onClick={() => setOpen(false)}
+          aria-label="Big Mango Studio home"
         >
-          <span className="relative h-9 w-9 overflow-hidden rounded-full border border-white/10 bg-black">
+          <span className="relative block h-12 w-24 sm:w-28">
             <Image
               src="/big-mango-logo.png"
               alt=""
               fill
               priority
-              className="object-cover"
-              sizes="36px"
+              className="object-contain object-left"
+              sizes="(max-width: 640px) 96px, 112px"
             />
           </span>
-          <span>{siteConfig.name}</span>
+          <span className="hidden font-[family-name:var(--font-display)] text-lg font-bold tracking-tight text-white sm:inline">
+            {siteConfig.name}
+          </span>
         </Link>
 
         <nav

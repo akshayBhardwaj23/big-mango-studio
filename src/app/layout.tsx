@@ -29,13 +29,15 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/big-mango-logo.png",
+        url: "/favicon-32.png",
+        sizes: "32x32",
         type: "image/png",
       },
     ],
     apple: [
       {
-        url: "/big-mango-logo.png",
+        url: "/apple-icon.png",
+        sizes: "180x180",
         type: "image/png",
       },
     ],
