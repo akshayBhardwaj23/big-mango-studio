@@ -26,6 +26,20 @@ export const metadata: Metadata = {
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
+  icons: {
+    icon: [
+      {
+        url: "/big-mango-logo.png",
+        type: "image/png",
+      },
+    ],
+    apple: [
+      {
+        url: "/big-mango-logo.png",
+        type: "image/png",
+      },
+    ],
+  },
   openGraph: {
     title: `${siteConfig.name} | High-converting SaaS & AI websites`,
     description: siteConfig.description,

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { siteConfig, mailtoLink } from "@/content/site";
 
 export function SiteFooter() {
@@ -8,9 +9,20 @@ export function SiteFooter() {
     <footer className="border-t border-white/10 bg-black text-neutral-300">
       <div className="mx-auto flex max-w-6xl flex-col gap-12 px-4 py-16 sm:px-6 lg:flex-row lg:items-start lg:justify-between">
         <div className="max-w-md">
-          <p className="font-[family-name:var(--font-display)] text-2xl font-bold text-white">
-            {siteConfig.name}
-          </p>
+          <div className="flex items-center gap-3">
+            <span className="relative h-11 w-11 overflow-hidden rounded-full border border-white/10 bg-black">
+              <Image
+                src="/big-mango-logo.png"
+                alt=""
+                fill
+                className="object-cover"
+                sizes="44px"
+              />
+            </span>
+            <p className="font-[family-name:var(--font-display)] text-2xl font-bold text-white">
+              {siteConfig.name}
+            </p>
+          </div>
           <p className="mt-4 text-sm leading-relaxed text-neutral-400">
             {siteConfig.description}
           </p>

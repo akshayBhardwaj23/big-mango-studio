@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { bookConversionPlan } from "@/content/cta";
@@ -51,10 +52,20 @@ export function SiteHeader() {
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
         <Link
           href="/"
-          className="font-[family-name:var(--font-display)] text-lg font-bold tracking-tight text-white"
+          className="flex items-center gap-3 font-[family-name:var(--font-display)] text-lg font-bold tracking-tight text-white"
           onClick={() => setOpen(false)}
         >
-          {siteConfig.name}
+          <span className="relative h-9 w-9 overflow-hidden rounded-full border border-white/10 bg-black">
+            <Image
+              src="/big-mango-logo.png"
+              alt=""
+              fill
+              priority
+              className="object-cover"
+              sizes="36px"
+            />
+          </span>
+          <span>{siteConfig.name}</span>
         </Link>
 
         <nav
